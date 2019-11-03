@@ -1,0 +1,16 @@
+#mainHead {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid $heading-color;
+    h1 {
+        font-family: $head-font;
+        font-size: 50px;
+    }
+    h4 {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: $p-font;
+        
+    }
+}

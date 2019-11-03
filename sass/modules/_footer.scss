@@ -1,0 +1,11 @@
+footer { 
+    color: $footer-text-color;
+    text-align: center;
+    font-family: $head-font;
+    margin-top: 20px;
+    a {
+        text-decoration: none;
+        color: $footer-text-color;
+    }
+}
+

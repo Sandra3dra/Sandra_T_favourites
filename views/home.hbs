@@ -1,0 +1,33 @@
+<section id="mainSec" class="panel">
+    <p id="mainText">
+        Everyone has their favourites, and<br><span id="colorText">Here Are Mine.</span>
+    </p>
+    <div class="favThings">
+        <!-- loop through all our team members and put their info on the page -->
+        {{#each data}} <!-- like a js forEach loop -->
+        <div class="item-panel">
+            <p>{{Description}}</p>
+            <img src="images/{{Img}}" alt="item name" class="i-img">
+            <a class="i-link" href="{{ID}}">
+                <img src="images/heart_button.png" alt="heart button" class="hIcon">
+            </a>
+            <h1>{{Title}}</h1>
+        </div>
+
+        {{/each}}
+        
+    </div>
+    </div>
+
+    <!-- this will be filled in on the client side when we render our AJAX data -->
+    <section class="lightbox">
+        <span class="close">x</span>
+        <div class="sidebar">
+            <img src="" alt="larger fav things image">
+        </div>
+
+        <div class="lb-content">
+
+        </div>
+    </section>
+</section>
