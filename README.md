@@ -10,5 +10,8 @@ From the github link https://github.com/SandraTsao/Sandra_T_favourites.git clone
 ## Usage
 The website shows three things specially picked out by Sandra and displayed with the simple and easy to understand design. Simply follow the instructions on the top of the webpage, you would be able to explore the webpage within a coule clicks.
 
+## Credits
+Icons source: https://icons8.com/icons/set/like
+
 ## Contributors
 ## Ting-Hsuan(Sandra) Tsao https://github.com/SandraTsao
