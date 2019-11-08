@@ -31,7 +31,7 @@ const myVM = (() => {
         event.preventDefault();
         // debugger;
         // 1,2,3 depending on which anchor tag you click
-        let url = `/${this.getAttribute(`href`)}`,
+        let url = `/users/${this.getAttribute(`href`)}`,
             currentImg = this.previousElementSibling.getAttribute('src');
 
         fetch(url)
