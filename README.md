@@ -13,5 +13,11 @@ The website shows three things specially picked out by Sandra and displayed with
 ## Credits
 Icons source: https://icons8.com/icons/set/like
 
+## Dependencies
+* "express": "^4.17.1",
+* "hbs": "^4.0.6",
+* "mysql": "^2.17.1"
+* "nodemon": "^1.19.4"
+
 ## Contributors
 ## Ting-Hsuan(Sandra) Tsao https://github.com/SandraTsao
